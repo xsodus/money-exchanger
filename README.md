@@ -1,3 +1,6 @@
+A simple React app that can exchange the money on each currency by using ExchangeRates API. 
+I created this project to learn how to implement a simple app by React.js
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
