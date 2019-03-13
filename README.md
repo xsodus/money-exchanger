@@ -3,6 +3,13 @@ I created this project to learn how to implement a simple app by React.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Requirement Tools
+
+You need to install npm then go to the base directory and install the dependencies by this command:
+
+`npm install`
+
+
 ## Available Scripts
 
 In the project directory, you can run:
