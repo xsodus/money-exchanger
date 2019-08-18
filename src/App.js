@@ -49,7 +49,7 @@ class App extends Component
   onLoadTargetCurrency(res, err)
   {
       var input = this.state.exchangeMoneyInput;
-      
+      const a=10
       if(err !== null) {
         console.log(`Could not load data:${err}`);
         return;
