@@ -51,7 +51,7 @@ class App extends Component
       var input = this.state.exchangeMoneyInput;
       
       if(err !== null) {
-        alert(`Could not load data:${err}`);
+        console.log(`Could not load data:${err}`);
         return;
       }
 
