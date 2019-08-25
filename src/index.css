@@ -13,6 +13,6 @@ code {
     monospace;
 }
 
-.test-class{
+#test-id{
   margin:0 !important;
 }
