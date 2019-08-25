@@ -1,0 +1,7 @@
+version: '3'
+services:
+  sonarqube:
+    container_name: xsodus-sonarqube
+    image: "sonarqube"
+    ports:
+     - "9000:9000"
