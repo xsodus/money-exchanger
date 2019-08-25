@@ -40,6 +40,11 @@ class App extends Component
     this.onLoadTargetCurrency(res, err);
   }
 
+  unusedFunction() 
+  {
+     console.log("This is an unused function!!!")
+  }
+
   onExchangeMoney()
   {
     var input = this.state.exchangeMoneyInput;
