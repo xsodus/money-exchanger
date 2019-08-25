@@ -5,6 +5,11 @@ import ExchangeForm from './viewmodel/ExchangeForm.js';
 import ExchangeMoneyInput from './model/ExchangeMoneyInput';
 import ExchangeRateAPI from './api/ExchangeRateAPI.js';
 
+unusedFunction() 
+{
+  console.log("This is an unused function!!!")
+}
+
 class App extends Component 
 {
   constructor(props)
@@ -49,9 +54,9 @@ class App extends Component
   onLoadTargetCurrency(res, err)
   {
       var input = this.state.exchangeMoneyInput;
-      
+      const a=10
       if(err !== null) {
-        alert(`Could not load data:${err}`);
+        console.log(`Could not load data:${err}`);
         return;
       }
 
