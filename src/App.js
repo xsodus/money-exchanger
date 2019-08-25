@@ -5,6 +5,11 @@ import ExchangeForm from './viewmodel/ExchangeForm.js';
 import ExchangeMoneyInput from './model/ExchangeMoneyInput';
 import ExchangeRateAPI from './api/ExchangeRateAPI.js';
 
+unusedFunction() 
+{
+  console.log("This is an unused function!!!")
+}
+
 class App extends Component 
 {
   constructor(props)
@@ -38,11 +43,6 @@ class App extends Component
 
     this.setState({ currencyList: newCurrencyList });
     this.onLoadTargetCurrency(res, err);
-  }
-
-  unusedFunction() 
-  {
-     console.log("This is an unused function!!!")
   }
 
   onExchangeMoney()
